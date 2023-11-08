@@ -1,0 +1,37 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.bg-header {
+    background: linear-gradient(rgba(200, 147, 147, 0), #c89393a6), url('./../../public/media/blog.avif');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em white,
+    0 0 0.2em white;
+    color: white;
+}
+
+.bg-custom {
+    background-color: rgba(148, 154, 84, 0.246);
+}
+
+.bg-navbar {
+    background-color: #7EAB9A;
+}
+
+.btn-custom{
+    background-color: #7EAB9A;
+    border: 1px solid rgba(148, 154, 84, 0.246);
+}
+
+.btn-custom:hover{
+    background-color: rgba(148, 154, 84, 0.246);
+    border: 1px solid #7EAB9A;
+}
